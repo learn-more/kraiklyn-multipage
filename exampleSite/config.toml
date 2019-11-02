@@ -2,19 +2,19 @@ baseURL = "/"
 languageCode = "en-us"
 
 title = "Consider Phlebas"
-theme = "kraiklyn"
+theme = "kraiklyn-multipage"
 
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
 [params]
-externalTitle = "Kraiklyn theme"
+externalTitle = "Kraiklyn-multipage theme"
 sidebarColor = "default"
 customCss = []
 
 [[menu.shortcuts]]
-name = "Kraiklyn on Github"
-url = "https://github.com/jsnjack/kraiklyn"
+name = "Kraiklyn-multipage on Github"
+url = "https://github.com/learn-more/kraiklyn-multipage"
 weight = 10
 
 [[menu.shortcuts]]

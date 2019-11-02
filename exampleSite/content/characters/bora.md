@@ -1,7 +1,6 @@
 ---
 title: "Bora"
 date: 2018-01-28T21:54:02+01:00
-anchor: "bora"
 weight: 30
 ---
 
