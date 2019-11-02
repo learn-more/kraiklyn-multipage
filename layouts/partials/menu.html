@@ -1,5 +1,5 @@
 <ul>
-    {{ with .Sections }}
+    {{ with .Site.Sections }}
         {{ range .ByWeight }}
             {{ partial "menu_page_list.html" . }}
         {{ end }}

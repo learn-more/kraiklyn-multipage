@@ -1,10 +1,9 @@
-Kraiklyn
+Kraiklyn-multipage
 =====
 
-A simple one page [Hugo](https://gohugo.io/) theme for documentation. Inspired by Hyde, Simpledoc and docDock themes
+A simple [Hugo](https://gohugo.io/) theme for documentation. Based on the Kraiklyn one page theme
 
 # Features
- - all content is rendered on one page
  - unlimited menu level
  - mobile friendly
  - customize website logo
@@ -14,9 +13,8 @@ A simple one page [Hugo](https://gohugo.io/) theme for documentation. Inspired b
 Clone the repository to your site’s themes directory.
 
 # Usage
-All content is rendered on the main page. Front-matter's `anchor` is used for the navigation. Content is ordered by Weight.
+All content is rendered on it's own page. Content is ordered by Weight.
 
-When creating a new section, make sure `_index.md` exists for correct cross-references.
 
 ## Shortcodes
 
@@ -30,12 +28,6 @@ By default only ports 22, 80 and 443 are open
 
 Available types: `note`, `tip`, `warn`, `info`
 
-### anchor
-Returns `anchor` parameter (see `archetypes/default.md` file) of the article
-```markdown
-Check [Proxy environment]({{% anchor "installation/proxy-environment.md" %}}) section
-```
-Since the theme is a one-page theme, this is the way to make cross-references on the website
 
 ## Customizing sidebar
 
