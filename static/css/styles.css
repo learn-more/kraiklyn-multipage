@@ -244,3 +244,9 @@ table,th, td {
 td{
   padding: 5px;
 }
+
+a[target="_blank"]::after {
+  content: "\2197";
+  margin: 0 3px 0 5px;
+}
+
